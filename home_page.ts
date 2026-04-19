@@ -31,7 +31,7 @@ export const home_page: { [key in LOCALE]?: { [key in string]: string } } = {
     zh: '使用其他方法登入',
     fr: "Se connecter avec d'autres méthodes",
     br: 'Entrar com outros métodos',
-    vi: 'Đăng nhập bằng các phương pháp khác',
+    vi: 'Đăng nhập bằng phương pháp khác',
     id: 'Masuk dengan Metode Lainnya',
   },
   [LOCALE.USERNAME]: {
@@ -61,7 +61,7 @@ export const home_page: { [key in LOCALE]?: { [key in string]: string } } = {
     zh: '選擇地區',
     fr: 'Sélectionner une région',
     br: 'Selecione a região',
-    vi: 'Chọn Khu vực',
+    vi: 'Chọn khu vực',
     id: 'Pilih Wilayah',
   },
   [LOCALE.SERVER]: {
@@ -91,7 +91,7 @@ export const home_page: { [key in LOCALE]?: { [key in string]: string } } = {
     zh: '服務條款',
     fr: "Conditions d'utilisation",
     br: 'Termos de serviço',
-    vi: 'Điều khoản Dịch vụ',
+    vi: 'Điều khoản dịch vụ',
     id: 'Syarat Layanan',
   },
   [LOCALE.PRIVACY_POLICY]: {
@@ -101,7 +101,7 @@ export const home_page: { [key in LOCALE]?: { [key in string]: string } } = {
     zh: '隐私政策',
     fr: 'Politique de confidentialité',
     br: 'Política de privacidade',
-    vi: 'Chính sách Bảo mật',
+    vi: 'Chính sách bảo mật',
     id: 'Kebijakan Privasi',
   },
   [LOCALE.PARTNERS]: {
@@ -121,7 +121,7 @@ export const home_page: { [key in LOCALE]?: { [key in string]: string } } = {
     zh: '社交',
     fr: 'Social',
     br: 'Social',
-    vi: 'Mạng Xã hội',
+    vi: 'Mạng xã hội',
     id: 'Sosial',
   },
   [LOCALE.INFORMATIONS]: {
@@ -231,7 +231,7 @@ export const home_page: { [key in LOCALE]?: { [key in string]: string } } = {
     zh: ' - 獎勵：經驗值和金幣\n - 减少 25% 的經驗值和金幣',
     fr: " - Récompense : expérience et pièces\n - 25% d'expérience et de pièces en moins",
     br: ' - Recompensa: experiência e moedas\n - 25% menos experiência e moedas',
-    vi: ' - Phần thưởng: kinh nghiệm và xu\n - 25% kinh nghiệm và xu it hơn',
+    vi: ' - Phần thưởng: kinh nghiệm và xu\n - 25% kinh nghiệm và xu ít hơn',
     id: ' - Hadiah: pengalaman dan koin\n - 25% kurang pengalaman dan koin',
   },
   [LOCALE.POPUP_GENERATE_NAME]: {
@@ -241,7 +241,7 @@ export const home_page: { [key in LOCALE]?: { [key in string]: string } } = {
     zh: '產生名稱',
     fr: 'Générer un nom',
     br: 'Gerar Nome',
-    vi: 'Tạo Tên',
+    vi: 'Tạo tên',
     id: 'Buat Nama',
   },
   [LOCALE.LOGIN_ALREADY_LOGGED_IN]: {
@@ -291,7 +291,7 @@ export const home_page: { [key in LOCALE]?: { [key in string]: string } } = {
     cz: 'Volný',
     zh: '隨意遊玩',
     fr: 'Décontracté',
-    vi: 'Đánh Thường',
+    vi: 'Đánh thường',
     id: 'Santai',
   },
   [LOCALE.BLITZ_MATCH]: {

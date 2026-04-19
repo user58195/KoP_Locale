@@ -155,7 +155,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Marionnettiste',
     br: 'Puppeteer',
     id: 'Dalang',
-    vi: 'Bậc Thầy Rối',
+    vi: 'Bậc thầy rối',
   },
   [LOCALE.SEER_NAME]: {
     en: 'Seer',
@@ -175,7 +175,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '即將加入，敬請期待！',
     fr: 'Sera bientôt ajouté!',
     id: 'Akan segera ditambahkan!',
-    vi: 'Sẽ được thêm vào sớm thôi!',
+    vi: 'Sẽ được thêm sớm thôi!',
   },
   [LOCALE.KUMIHU_DESCRIPTION]: {
     en: 'Kumihu is an evil spirit in the guise of a beautiful woman who is always hungry for new souls. But be careful: in the blink of an eye she can show her true form, destroying any chance to survive, since the Soul Sphere will catch even the most tenacious fools.',
@@ -195,7 +195,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '　　隸屬於北極地帶希維亞的企鵝群，艾希特在企鵝群中脫穎而出。擁有魔法之力，艾希特可以在他的腳蹼間現出冰雪。沒人知曉他的能力從何而來，但大家都接納他在群體中的獨特性。搖搖擺擺地走過了重重的高樹茂林，艾希特下定了決心，去尋找他那曾經用來保護整個家族的力量其背後的真實意涵。',
     fr: "Appartenant à une colonie de pingouins dans la région arctique de Civia, I'ceat se démarquait des autres. Possédant des pouvoirs magiques, I'ceat peut manifester de la glace et de la neige à l'extrémité de ses palmes. Personne ne sait d'où viennent ses pouvoirs, mais tout le monde accepte son unicité au sein du groupe. En se dandinant devant les grands arbres de la forêt dense, I'ceat est déterminé à trouver la véritable signification derrière les pouvoirs qu'il utilisait autrefois pour protéger sa famille.",
     id: "Bergabung dengan koloni penguin di wilayah arktik Civia, I'ceat menonjol di antara yang lain. Memiliki kekuatan magis, I'ceat dapat memanifestasikan es dan salju di ujung siripnya. Tidak ada yang tahu dari mana kekuatannya berasal, tetapi semua orang menerima keunikannya di antara kelompok. Berjalan goyang melewati pohon-pohon tinggi di hutan lebat, I'ceat bertekad untuk menemukan makna sebenarnya di balik kekuatan yang pernah digunakannya untuk melindungi keluarganya.",
-    vi: "Thuộc về một chủng tộc chim cánh cụt ở vùng Bắc Cực Civia, I'ceat nổi bật hơn những con khác. Sở hữu sức mạnh ma thuật, I'ceat có thể hiện ra băng và tuyết ở đầu vây của mình. Không ai biết sức mạnh của anh đến từ đâu, nhưng mọi người đều chấp nhận sự độc đáo của anh trong nhóm. Lạch bạch đi qua những cây cao trong rừng rậm, I'ceat quyết tâm tìm ra ý nghĩa thực sự đằng sau sức mạnh mà anh đã từng sử dụng để bảo vệ gia đình mình.",
+    vi: "Thuộc về một chủng tộc chim cánh cụt ở vùng Bắc Cực Civia, I'ceat nổi bật hơn bạn cùng trang lứa. Sở hữu sức mạnh ma thuật, I'ceat có thể triệu hồi ra băng và tuyết ở đầu vây của mình. Không ai biết sức mạnh của cậu đến từ đâu, nhưng mọi người đều chấp nhận sự độc đáo của cậu trong nhóm. Lạch bạch đi qua những cây cao trong rừng rậm, I'ceat quyết tâm tìm ra ý nghĩa thực sự đằng sau sức mạnh mà cậu đã từng sử dụng để bảo vệ gia đình mình.",
   },
   [LOCALE.THOMAS_DESCRIPTION]: {
     en: "Coming from an underground laboratory in the heated war zone of Rotite, Thomas fought for Etygia's guerilla force and partook in ambushes focused on the upper ranks of the enemy forces. He gained notoriety among allies and foes alike because of his unique style of killing. During a secret experiment gone wrong, the test subject blasted the laboratory wide open. Wanting to leave the hectic environment and hellish landscape, Thomas dared to leave the guerilla force for good. Through the spray of bullets, he managed to swiftly make it past as he witnessed the loss of many lives in the chaos. For Thomas, he wanted freedom, but at the cost of betraying the kingdom. Keeping a low profile and lurking in the shadows, it's only a matter of time. The hunter has become the hunted.",
@@ -249,17 +249,29 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
   [LOCALE.AREL_DESCRIPTION]: {
     en: 'Captured as a small child at the tail end of the Demonic Subjugation War, subject D01, also known as Arel, was used as an experiment by the Guardians in their demonic magic research. Years of psychological torture, physical augmentation, and forced implantation of magical pathways in his body led to his being rendered nearly blind, and his left leg crippled. However, upon his clearance to be infused with demonic magic, something went horribly wrong. A sliver of his humanity cried out, and rejected the infusion, creating a nova of demonic magic that destroyed the facility he was being held in, and rendered him in a coma. When he next awoke, one thought filled his mind: vengeance. Picking up a belt of grenades and a pistol, Arel now wanders the outskirts of Guardian territory, inflicting swift death to those that tormented him all those years ago.',
     ru: 'Пленённый ещё ребёнком в конце Войны Подчинения Демонов, объект D01, также известный как Арел, стал подопытным для Стражей в их исследованиях демонической магии. Годы психологических истязаний, физических экспериментов и принудительной имплантации магических каналов для демонической магии в его тело привели к почти полной слепоте и параличу левой ноги. Но когда пришло время ввести в него проклятую энергию, всё пошло не по плану. Крупица его человечности восстала и отвергла тёмную силу, породив взрыв магической энергии, который уничтожил лабораторию, где его держали, и погрузил его в кому. Когда Арел очнулся, лишь одно чувство овладело его разумом: жажда мести. Вооружившись поясом с гранатами и пистолетом, он теперь бродит по окраинам земель Стражей, неся быструю смерть тем, кто обрёк его на годы страданий.',
-    zh: '　　物件D01，又稱為艾瑞爾，孩時在一場降魔戰爭的末期中被俘虜，被守護者拿來做為研究邪惡魔法的實驗對象。經歷過數多年的心理折磨與生理強化，並且被強行將魔道植入體內，這使他幾乎快要成為盲眼的存在，且使他的左腳殘廢了。然而，在他同意注入邪惡魔法之後，發生了嚴重的問題，他的一絲人性大聲嘶吼拒絕了注入，產生了一個邪惡魔法的爆破，摧毀了監禁他的設施，並使他陷入了昏迷。在他下一次醒來之後，有一個想法充斥了他的內心：復仇。拾起手榴彈腰帶和一把手槍之後，他在守護者領地附近徘迴，令那些前幾年害他飽受折磨的人迅速死去。',
+    zh: '  物件D01，又稱為艾瑞爾，孩時在一場降魔戰爭的末期中被俘虜，被守護者拿來做為研究邪惡魔法的實驗對象。經歷過數多年的心理折磨與生理強化，並且被強行將魔道植入體內，這使他幾乎快要成為盲眼的存在，且使他的左腳殘廢了。然而，在他同意注入邪惡魔法之後，發生了嚴重的問題，他的一絲人性大聲嘶吼拒絕了注入，產生了一個邪惡魔法的爆破，摧毀了監禁他的設施，並使他陷入了昏迷。在他下一次醒來之後，有一個想法充斥了他的內心：復仇。拾起手榴彈腰帶和一把手槍之後，他在守護者領地附近徘迴，令那些前幾年害他飽受折磨的人迅速死去。',
+    vi: 'Bị bắt khi còn nhở ở chiến tuyến Săn Quỷ Dữ, vật thể D01, cũng được biết đến với tên gọi Arel, được dùng làm thí nghiệm bởi Guardian trong công cuộc nghiên cứu về ma thuật của quỷ. Bị hành hạ về mặt thể chất, tinh thần và bị buộc phải tái nhập với ma thuật trong cơ thể hình đã làm cậu gần như bị mù và chân bị tàn. Tuy nhiên, với quyết tâm không để bị mù quáng trước ma thuật quỷ dữ, một thứ gì đó đã xảy ra. Thoáng một hy vọng từ lòng nhân nghĩa, chống lại sự tái nhập của quỷ, tạo một vụ nổ hào quang với sức mạnh ma thuật của quỷ đã phá hủy phòng thí nghiệm giam giữ cậu, nhưng đã làm cậu bất tỉnh. Tỉnh lại, suy nghĩ đầu tiên mà Arel có: Trả thù. Cầm một băng lựu đạn và một cây súng ngắn, giờ đây Arel lang thang địa phận bên ngoài của Guardian, tiễn đưa những kẻ đã làm ám ảnh cậu trong những năm đó.',
   },
   [LOCALE.FOXY_DESCRIPTION]: {
     en: "Foxy was born into a family of survivalists deep in the forests. His parents, former military operatives, taught him everything they knew about survival, combat, and weaponry from a young age. Growing up in this harsh environment, Foxy developed a keen sense of awareness and a fierce independence. His skill with firearms and explosives quickly became apparent. When he was 18, tragedy struck. A rogue hermit group attacked his family, seeking to eliminate any threats to their illegal operations in the region. Foxy's parents were killed in the assault, but he managed to escape, swearing revenge. Driven by this loss, he spent the next decade honing his skills, training with various heroes and the strongest champions he could find.",
     ru: 'Фокси родился в семье выживальщиков, глубоко в лесных дебрях. Его родители, бывшие военные, с ранних лет учили его всему, что знали о выживании, боевых искусствах и обращении с оружием. Выросший в этих суровых условиях, Фокси обрёл острое чувство бдительности и неукротимую независимость. Его талант в стрельбе и работе с взрывчаткой раскрылся с поразительной быстротой. Когда ему исполнилось восемнадцать, случилась трагедия. Отряд отшельников-ренегатов напал на его семью, стремясь устранить любую угрозу своим незаконным делам в этом крае. Родители Фокси погибли в сражении, но он сумел бежать, дав клятву отомстить. Охваченный болью утраты, он посвятил следующие десять лет тому, чтобы отточить свои навыки ещё больше, тренируясь с героями и сильнейшими чемпионами, которых мог найти.',
     zh: '　　弗克西誕生在森林深處的一個生存主義家庭之中。他的雙親，作為前軍事人員，在他年輕時教他任何以他們所知的生存、戰鬥、與使用武器的法則。在如此嚴峻的環境下長大，弗克西發展出了敏銳的意識與強烈的獨立性。他的槍械與爆炸技巧很快地就顯現了出來。在他十八歲時，一場悲劇發生了。一個惡棍隱士群體攻擊了他的家庭，為著消除任何在此境地非法活動會碰到的威脅。弗克西的雙親在這場突擊中喪生，但他拒絕逃跑，發誓要復仇。在這場落失的驅使之下，他在接下來的十年當中不斷琢磨他的技能，與各種英雄以及他所能找到的最強勝利者進行訓練。',
+    vi: 'Foxy được sinh ra trong một gia đình kiểm lâm sâu trong rừng. Ba mẹ cậu, cựu tướng quân, đã dậy cậu tất cả những gì họ biết về sinh tồn, phòng vệ và sử dụng vũ khí khi cậu còn nhỏ. Vì sống trong môi trường khắc nhiệt này, Foxy đã học được tính cảnh giác và tự lập. Kỹ năng sử dụng súng trường và thuốc nổ đã được những người xung quanh chú ý. Năm 18 tuổi, thảm khốc xảy ra. Một đám ẩn sĩ lang bạt đã tấn công và gia đình của cậu, với ý đồ xóa sổ những hành động phi pháp của họ ở vùng đất. Họ đã bị giết trong một cuộc ám sát, nhưng Fõxy may mắn trốn thoát, quyết tâm phục thù. Với lòng quyết tâm này, cậu dành thập kỉ tiếp theo ôn lại kĩ thuật của mình, luyện tập với nhiều tướng và anh hùng cậu tìm thấy.',
   },
   [LOCALE.MAGDALENE_DESCRIPTION]: {
     en: 'Magdalene was once a revered priestess in a forgotten realm, dedicated to maintaining the balance between life and death. She served as a bridge between the living and the dead, guiding souls to their final resting place with compassion and wisdom. However, her peaceful existence was shattered when the hermit force invaded her homeland, corrupting the land and enslaving the souls of the departed. Desperate to save her people and the souls she had sworn to protect, Magdalene performed a forbidden ritual, merging her essence with the power of an ancient, dark scythe. This act transformed her into a being of immense power, but at a great cost. She became the Soul Reaper, a harbinger of death who could command the souls of the fallen. While she succeeded in driving back the invaders, the corruption had taken root within her, and she was forever changed.',
     ru: 'Магдалина некогда была почитаемой жрицей в затерянном измерении, посвящённой сохранению равновесия между жизнью и смертью. Она служила проводницей между миром живых и царством мёртвых, с мудростью и состраданием провожая души в их последний путь. Но её мирное существование было разрушено, когда силы отшельников вторглись в её родные земли, осквернив их и поработив души умерших. В отчаянной попытке спасти свой народ и тех, чьи души она клялась оберегать, Магдалина совершила запретный ритуал, соединив свою сущность с древним тёмным серпом. Этот акт наделил её невероятной мощью, но это стоило ей многого. Она стала Жницей Душ — вестницей смерти, способной повелевать павшими душами. Ей удалось изгнать захватчиков, но тьма пустила корни в её сердце, навсегда изменив её.',
     zh: '　　瑪格達琳曾是一個在被人遺忘的國度中受人尊敬的女祭司，致力於維持生與死的平衡。她作為生與死之間的橋樑服侍著，以慈悲與智慧領導靈魂到它們最後的安息之地。然而，她的平靜生活就在隱士勢力入侵她的家園後被打破了，他們腐化了土地並奴役了死者的靈魂。不顧一切地拯救她的人民與她誓言要保護的靈魂，瑪格達琳展開一場禁忌的儀式，將她的本質與古老、暗黑的鐮刀結合在了一塊。這一舉動使她轉變成了擁有無比力量的存在，但因此付出了巨大的代價。她成了死亡的預兆－奪魂者，指揮著墮落的靈魂。當她成功擊退了入侵者，她的腐化已經在她體內徹底扎根，她的後生已被永遠改變了。',
+    vi: 'Magdalene là một tu sĩ được kính trọng mang lại sự cân bằng giữa sự sống và cái chết ở cảnh giới giờ đây đã bị lãng quên. Cô được ví như là cầu nối giữa người trần và người đã khuyất, đưa những linh hồn về nơi an nghỉ cuối cùng với tấm lòng nhân nghĩa. Tuy nhiên, sự tồn tại của cô đã bị xóa sổ khi những tên lang bạt xâm lược nơi cô sinh ra, nhiễu loạn vùng đất và bắt các linh hồn làm nô lệ cho chúng. Quyết cứu vãn những người và sinh hồn cô thề bảo vệ, Magdalene thực hiện một nghi lễ cấm, hòa nhập linh hồn của cô với sức mạnh của một lưới hái cổ đại. Điều này khiến cô có sức mạnh cực lớn, nhưng với cái giá đắt. Cô đã biến thành Thần Chết Linh Hồn, một sức mạnh có thể điều khiển những linh hồn đã ngã xuống. Mặc dù thành công trong việc đẩy lùi những kẻ xâm lang, sự tà hóa đã nhập vaò cơ thể cô, và cô đã mãi mãi thay đổi.'
+  },
+  [LOCALE.PRIM_DESCRIPTION]: {
+    en: 'Once a curious girl of flesh and blood, Prim is now a technological marvel composed entirely of clockwork. She became gravely ill after an accident in the lower districts of Kingdom of Pixels , and her failing body had to be replaced with exquisite artifice, piece by piece. Accompanied by the extraordinary brass orb that houses her koptech arsenal, Prim is now free to explore the wonders of the Nexus, and beyond.'
+  },
+  [LOCALE.SEER_DESCRIPTION]: {
+    en: "On a stormy night, scientists worked tirelessly on experiments involving human subjects when they discovered an ancient, weathered stone, dubbed Subject 31, or ominously Seer. The stone's origins were unknown, though rumors suggested it could be from a long-lost guardian vault. As they began to investigate its mysterious powers, strange things occurred: the air thickened, and a powerful energy emanated from the stone. When it cracked open, chaos erupted in the lab—lights flickered, electrical sparks flew, and a strange, sickly glow filled the room. One scientist, drawn to the stone’s power, approached it, only to be violently consumed by its energy. His body disintegrated, leaving behind nothing but a hollow shell. The storm outside resumed, and the lab returned to its original state as if untouched. The scientists slowly regained consciousness, only to find the stone hovering ominously above the table, glowing with green and purple light. One of their colleagues had vanished without a trace, and the stone's true power remained a chilling mystery. Despite further experiments, the scientists were left with more questions than answers: What did the stone do to their colleague? What had it unleashed on the world? And what was its true purpose? To this day, the stone's origins and powers remain an enigma, and the missing scientist has never been found.",
+  },
+  [LOCALE.VEIL_DESCRIPTION]: {
+    en: 'Veil was the premier subject of the brutal experiments of the early tests with human-demon bonding. She was one of the few who volunteered to be a subject, as her father was one of the heads of the project. With extreme loyalty and unwavering dedication to the program, she was always the prime subject for the modification. Her inner connection allowed her to select her own demon, instead of a random one being picked. She chose Mailar, a captured demon who had the power of astral projection. Her experimentation allowed her to be the first human-demon solder. However, the demon still wished for freedom, and after a particularly bad injury, she was weakened to the point where Mailar took control and slaughtered all the scientists working on her, including her father. Distraught and fearful, she escaped into the jungles, hoping to one day master her inner demon.'
   },
   [LOCALE.DAMAGE_TYPE_NORMAL]: {
     en: 'Normal',
@@ -299,7 +311,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '衝刺',
     fr: 'Dash',
     id: 'Serangan Mendatar',
-    vi: 'Tốc biến / Tốc Hành',
+    vi: 'Tốc biến / Tốc hành',
   },
   [LOCALE.DAMAGE_TYPE_HEAL]: {
     en: 'Heal',
@@ -329,7 +341,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '冷卻時間',
     fr: 'Temps de recharge',
     id: 'Waktu Tunggu',
-    vi: 'Thời gian hồi chiêu',
+    vi: 'Hồi chiêu',
   },
   [LOCALE.LEVEL]: {
     en: 'Level',
@@ -349,7 +361,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '紅隊',
     fr: 'Équipe Rouge',
     id: 'Tim Merah',
-    vi: 'Đội Đỏ',
+    vi: 'Đội đỏ',
   },
   [LOCALE.BLUE_TEAM]: {
     en: 'Blue Team',
@@ -359,7 +371,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '藍隊',
     fr: 'Équipe Bleue',
     id: 'Tim Biru',
-    vi: 'Đội Xanh',
+    vi: 'Đội xanh',
   },
   [LOCALE.SECOND]: {
     en: 'Seconds',
@@ -419,7 +431,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '流動號碼',
     fr: 'Nombres flottants',
     id: 'Angka Mengambang',
-    vi: 'Số Hữu Tỉ',
+    vi: 'Số hữu tỉ',
   },
   [LOCALE.FULL_SCREEN]: {
     en: 'Toggle Full Screen',
@@ -429,7 +441,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '釘選全螢幕',
     fr: 'Activer le mode plein écran',
     id: 'Alihkan Layar Penuh',
-    vi: 'Chuyển đổi Toàn màn hình',
+    vi: 'Toàn màn hình',
   },
   [LOCALE.MOUSE_SUPPORT]: {
     en: 'Mouse Support',
@@ -439,7 +451,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '滑鼠支援',
     fr: 'Support de la souris',
     id: 'Dukungan Mouse',
-    vi: 'Chuột Hỗ trợ',
+    vi: 'Hỗ trợ chuột',
     cz: 'Podpora myši',
     ru: 'Поддержка мыши',
     br: 'Suporte para Mouse',
@@ -482,7 +494,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '排行榜',
     fr: 'Classement',
     id: 'Papan Peringkat',
-    vi: 'Bảng xếp hạng',
+    vi: 'Xếp hạng',
   },
   [LOCALE.HEROES]: {
     en: 'Heroes',
@@ -492,7 +504,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '英雄名冊',
     fr: 'Héros',
     id: 'Pahlawan',
-    vi: 'Những tướng',
+    vi: 'Tướng',
   },
   [LOCALE.HERO]: {
     en: 'Hero',
@@ -607,7 +619,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '總遊玩次數',
     fr: 'Total des jeux',
     id: 'Total Permainan',
-    vi: 'Tổng số trò chơi',
+    vi: 'Tổng trận',
   },
   [LOCALE.TOTAL_WINS]: {
     en: 'Total Wins',
@@ -617,7 +629,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '總勝利次數',
     fr: 'Victoires totales',
     id: 'Total Kemenangan',
-    vi: 'Tổng số chiến thắng',
+    vi: 'Tổng trận thắng',
   },
   [LOCALE.GAME_WINS]: {
     en: 'Wins',
@@ -627,7 +639,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '勝利次數',
     fr: 'Victoires',
     id: 'Kemenangan',
-    vi: 'Chiến thắng',
+    vi: 'Thắng',
   },
   [LOCALE.GAME_LOSSES]: {
     en: 'Losses',
@@ -637,7 +649,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '戰敗次數',
     fr: 'Défaites',
     id: 'Kekalahan',
-    vi: 'Thua cuộc',
+    vi: 'Thua',
   },
   [LOCALE.RANK]: {
     en: 'Rank',
@@ -647,7 +659,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '階級',
     fr: 'Classement',
     id: 'Peringkat',
-    vi: 'Xếp hạng',
+    vi: 'Hạng',
   },
   [LOCALE.PLAYER]: {
     en: 'Player',
@@ -687,7 +699,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '練習賽（電腦）',
     fr: "Match d'entraînement (IA)",
     id: 'Pertandingan Latihan (AI)',
-    vi: 'Trận Đấu Tập Luyện (AI)',
+    vi: 'Tập luyện (AI)',
   },
   [LOCALE.PRACTICE_MATCH]: {
     en: 'Practice Hero',
@@ -697,7 +709,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '測試英雄',
     fr: 'Entraînement',
     id: 'Latihan Pahlawan',
-    vi: 'Thực hành Anh hùng',
+    vi: 'Luyện tướng',
   },
   [LOCALE.PLAY_NOW]: {
     en: 'Play Now!',
@@ -707,7 +719,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '開始遊玩！',
     fr: 'Jouer maintenant !',
     id: 'Mainkan Sekarang!',
-    vi: 'Chơi Ngay!',
+    vi: 'Chơi ngay!',
   },
   [LOCALE.TIME]: {
     en: 'Time',
@@ -843,7 +855,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Note',
     br: 'Nota',
     id: 'Nilai',
-    vi: 'Điểm',
+    vi: 'Hạng',
   },
   [LOCALE.POST_TOTAL_NETWORTH]: {
     en: 'Total Networth',
@@ -853,7 +865,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '獲得總價值',
     fr: 'Valeur nette totale',
     id: 'Total Kekayaan Bersih',
-    vi: 'Tổng Lượng Vàng',
+    vi: 'Tổng lượng vàng',
   },
   [LOCALE.POST_TOTAL_HEALING]: {
     en: 'Total Healing',
@@ -863,7 +875,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     cz: 'Celkové léčení',
     fr: 'Guérison totale',
     id: 'Total Penyembuhan',
-    vi: 'Tổng Số Hồi Máu',
+    vi: 'Tổng lượng máu hồi',
   },
   [LOCALE.POST_LEAVE_GAME]: {
     en: 'Leave Game',
@@ -1064,7 +1076,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '入隊失敗，請重試！',
     fr: "Échec de la mise en file d'attente, réessayez !",
     id: 'Gagal untuk mengantri, coba lagi!',
-    vi: 'Không thể vào chơi, vui lòng thử lại!',
+    vi: 'Không thể chơi, vui lòng thử lại!',
   },
   [LOCALE.POPUP_SELECT_BANNED_QUEUE]: {
     en: 'You are banned from queue for rejecting a match! Try again in ',
@@ -1084,7 +1096,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '奪得',
     fr: "j'ai un ",
     id: 'mendapatkan ',
-    vi: 'đã nhận một ',
+    vi: 'đã ',
   },
   [LOCALE.AN_IS_ON]: {
     en: 'is on ',
@@ -1094,7 +1106,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '成了',
     fr: 'est allumé ',
     id: 'sedang menyala ',
-    vi: 'đang bật ',
+    vi: 'đang trong cuộc ',
   },
   [LOCALE.AN_FIRST_BLOOD]: {
     en: 'First Blood',
@@ -1207,7 +1219,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '迅疾符文',
     fr: 'Rune de Hâte',
     id: 'Rune Kecepatan',
-    vi: 'Ngọc Tăng Tốc',
+    vi: 'Ngọc tốc hành',
   },
   [LOCALE.DAMAGE_RUNE]: {
     en: 'Damage Rune',
@@ -1217,7 +1229,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '傷害符文',
     fr: 'Rune de dégâts',
     id: 'Rune Kerusakan',
-    vi: 'Ngọc Tấn Công',
+    vi: 'Ngọc sát thương',
   },
   [LOCALE.ARCANE_RUNE]: {
     en: 'Arcane Rune',
@@ -1227,7 +1239,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '奧術符文',
     fr: 'Rune Arcane',
     id: 'Rune Arcana',
-    vi: 'Ngọc Huyền Bí',
+    vi: 'Ngọc hồi chiêu',
   },
   [LOCALE.HEALING_RUNE]: {
     en: 'Healing Rune',
@@ -1237,7 +1249,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '治癒符文',
     fr: 'Rune de guérison',
     id: 'Rune Penyembuhan',
-    vi: 'Ngọc Hồi Máu',
+    vi: 'Ngọc hồi máu',
   },
   [LOCALE.BOUNTY_RUNE]: {
     en: 'Bounty Rune',
@@ -1247,7 +1259,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '黃金符文',
     fr: 'Rune de prime',
     id: 'Rune Hadiah',
-    vi: 'Ngọc Vàng',
+    vi: 'Ngọc vàng',
   },
   [LOCALE.ABILITY_POWER]: {
     en: 'Ability Power',
@@ -1257,7 +1269,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '技能威力',
     fr: 'Puissance des compétences',
     id: 'Kekuatan Kemampuan',
-    vi: 'Sát thương Phép',
+    vi: 'Sát thương phép',
   },
   [LOCALE.DAMAGE]: {
     en: 'Attack Damage',
@@ -1267,7 +1279,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '攻擊傷害',
     fr: "Dégâts d'attaque",
     id: 'Kerusakan Serangan',
-    vi: 'Sát thương Vật lý',
+    vi: 'Sát thương vật lý',
   },
   [LOCALE.ATTACK_SPEED]: {
     en: 'Attack Speed',
@@ -1277,7 +1289,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '攻擊速度',
     fr: "Vitesse d'attaque",
     id: 'Kecepatan Serangan',
-    vi: 'Tốc độ Đánh',
+    vi: 'Tốc độ đánh',
   },
   [LOCALE.CRITICAL_CHANCE]: {
     en: 'Critical Chance',
@@ -1288,7 +1300,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Chance critique',
     br: 'Chance critique',
     id: 'Peluang Kritis',
-    vi: 'Tỷ lệ Chí Mạng',
+    vi: 'Tỷ lệ chí mạng',
   },
   [LOCALE.ABILITY_HASTE]: {
     en: 'Ability Haste',
@@ -1318,7 +1330,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '技能傷害抗性',
     fr: 'Résistance magique',
     id: 'Ketahanan Sihir',
-    vi: 'Kháng Phép Thuật',
+    vi: 'Kháng phép',
   },
   [LOCALE.ARMOR]: {
     en: 'Armor',
@@ -1338,7 +1350,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '韌性',
     fr: 'Ténacité',
     id: 'Ketekunan',
-    vi: 'Kháng Khống Chế',
+    vi: 'Kháng choáng',
   },
   [LOCALE.HEALTH]: {
     en: 'Health',
@@ -1440,7 +1452,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '二人協作',
     fr: 'Coopératif',
     id: 'Kooperatif',
-    vi: 'Đánh với máy',
+    vi: 'Đánh máy',
   },
   [LOCALE.EASY_BOT]: {
     en: '1 v 1 Easy Bot',
@@ -1520,7 +1532,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '觀眾數量： ',
     fr: 'Spectateurs en jeu: ',
     id: 'Penonton dalam permainan: ',
-    vi: 'Người xem trong trò chơi: ',
+    vi: 'Người xem: ',
   },
   [LOCALE.PRIVATE_LOBBY]: {
     en: 'Private Lobby',
@@ -1530,7 +1542,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '私人大廳',
     fr: 'Lobby privé',
     id: 'Lobi Pribadi',
-    vi: 'Phòng Riêng',
+    vi: 'Phòng',
   },
   [LOCALE.FIND_LOBBY]: {
     en: 'Find a Lobby',
@@ -1540,7 +1552,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '尋找房間',
     fr: 'Trouver un lobby',
     id: 'Temukan Lobi',
-    vi: 'Tìm một phòng',
+    vi: 'Tìm phòng',
   },
   [LOCALE.CREATE_LOBBY]: {
     en: 'Create a Lobby',
@@ -1570,7 +1582,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '加入',
     fr: 'Rejoindre',
     id: 'Bergabung',
-    vi: 'Tham gia',
+    vi: 'Vào',
   },
   [LOCALE.LEAVE]: {
     en: 'Leave',
@@ -1600,7 +1612,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Titre',
     br: 'Título',
     id: 'Judul',
-    vi: 'Tiêu đề',
+    vi: 'Tên',
   },
   [LOCALE.LOBBY_BLITZ_MODE]: {
     en: 'Blitz Mode',
@@ -1610,7 +1622,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '閃電模式',
     fr: 'Mode Blitz',
     id: 'Mode Blitz',
-    vi: 'Chế độ đánh nhanh',
+    vi: 'Đánh nhanh',
   },
   [LOCALE.LOBBY_INIT_GOLDS]: {
     en: 'Initial Gold',
@@ -1620,7 +1632,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '初始黃金',
     fr: 'Or initial',
     id: 'Emas Awal',
-    vi: 'Vàng ban đầu',
+    vi: 'Vàng đầu game',
   },
   [LOCALE.LOBBY_BASE_ABILITY_HASTE]: {
     en: 'Base Ability Haste',
@@ -1630,7 +1642,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Hâte de base des compétences',
     br: 'Aceleração Básica de Habilidade',
     id: 'Kecepatan Kemampuan Dasar',
-    vi: 'Hồi chiêu ban đầu',
+    vi: 'Hồi chiêu đầu game',
   },
   [LOCALE.LOBBY_DRAFT_PHASE]: {
     en: 'Draft Mode',
@@ -1640,7 +1652,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     cz: 'Režim draftu',
     fr: 'Mode de sélection',
     id: 'Mode Draf',
-    vi: 'Chế độ Ban Pick',
+    vi: 'Chế độ ban pick',
   },
   [LOCALE.DRAFT_BLIND_PICK]: {
     en: 'All Pick',
@@ -1660,7 +1672,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '隊長草案',
     fr: 'Draft du capitaine',
     id: 'Draft Kapten',
-    vi: 'Đánh Rank',
+    vi: 'Pick rank',
     ru: 'Режим выбора (Капитаны)',
     br: 'Capitão',
   },
@@ -1682,7 +1694,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '選擇隊長！',
     fr: 'Sélectionnez le capitaine !',
     id: 'Pilih Kapten!',
-    vi: 'Chọn Đội Trưởng!',
+    vi: 'Chọn đội trưởng!',
   },
   [LOCALE.CAPTAIN_DRAFT_ENEMY_TURN_TO_BAN]: {
     en: 'Enemy turn to ban!',
@@ -1692,7 +1704,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '輪到敵方禁角！',
     fr: "Tour de l'ennemi pour bannir!",
     id: 'Giliran musuh untuk melarang!',
-    vi: 'Lượt của đội địch cấm!',
+    vi: 'Lượt của đội bạn cấm!',
   },
   [LOCALE.CAPTAIN_DRAFT_YOUR_TURN_TO_BAN]: {
     en: 'Your turn to ban!',
@@ -1713,7 +1725,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '輪到敵方選角！',
     fr: "Tour de l'ennemi de choisir!",
     id: 'Giliran musuh untuk memilih!',
-    vi: 'Lượt của kẻ địch chọn!',
+    vi: 'Lượt của đội bạn chọn!',
   },
   [LOCALE.CAPTAIN_DRAFT_YOUR_TURN_TO_PICK]: {
     en: 'Your turn to pick!',
@@ -1733,7 +1745,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '選擇一個英雄！',
     fr: 'Sélectionnez un héros !',
     id: 'Pilih seorang Pahlawan!',
-    vi: 'Chọn một Tướng!',
+    vi: 'Chọn tướng!',
   },
   [LOCALE.CAPTAIN_DRAFT_BECOME_CAPTAIN]: {
     en: 'Become Captain!',
@@ -1743,7 +1755,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '成為隊長！',
     fr: 'Devenez capitaine!',
     id: 'Jadilah Kapten!',
-    vi: 'Trở thành Đội trưởng!',
+    vi: 'Trở thành đội trưởng!',
   },
   [LOCALE.TOURNAMENT_GAME]: {
     en: 'Tournament Game!',
@@ -1773,7 +1785,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     cz: 'Statistiky hráče',
     fr: 'Statistiques du joueur',
     id: 'Statistik Pemain',
-    vi: 'Thống kê người chơi',
+    vi: 'Thống kê',
   },
   [LOCALE.WINRATE]: {
     en: 'Winrate',
@@ -1793,13 +1805,13 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     cz: 'Záznam',
     fr: 'Enregistrement',
     id: 'Rekaman',
-    vi: 'Trận ghi lại',
+    vi: 'Trận gần đây',
   },
   [LOCALE.RECORD_ALLTIME]: {
     en: 'Overall Record',
     zh: '總紀錄',
     id: 'Rekor Keseluruhan',
-    vi: 'Kỷ lục tổng thể',
+    vi: 'Tổng trận',
   },
   [LOCALE.PEAK]: {
     en: 'Peaked {}',
@@ -1915,7 +1927,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     cz: 'Hlavní hlasitost',
     fr: 'Volume principal',
     id: 'Volume Utama',
-    vi: 'Âm lượng chính',
+    vi: 'Âm lượng tổng',
   },
   [LOCALE.MOVEMENT]: {
     en: 'Movement',
@@ -1925,7 +1937,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '移動速度',
     fr: 'Mouvement',
     id: 'Gerakan',
-    vi: 'Chuyển động',
+    vi: 'Di chuyển',
   },
   [LOCALE.ABILITES]: {
     en: 'Abilites',
@@ -1975,7 +1987,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Apprendre',
     br: 'Aprender',
     id: 'mempelajari',
-    vi: 'Học',
+    vi: 'Học tập',
   },
   [LOCALE.MECHANICS]: {
     en: 'Mechanics',
@@ -1985,7 +1997,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Mécaniques',
     br: 'Mecânicos',
     id: 'Mekanik',
-    vi: 'Cơ học',
+    vi: 'Cơ chế',
   },
   [LOCALE.ST_KEYBIND_MOVEUP]: {
     en: 'Jump',
@@ -2005,7 +2017,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '落下',
     fr: 'Descendre',
     id: 'Pindahkan ke Bawah',
-    vi: 'Di chuyển xuống',
+    vi: 'Xuống',
   },
   [LOCALE.ST_KEYBIND_MOVELEFT]: {
     en: 'Move Left',
@@ -2015,7 +2027,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '往左',
     fr: 'Déplacer à gauche',
     id: 'Gerak Kiri',
-    vi: 'Di chuyển sang trái',
+    vi: 'Sang trái',
   },
   [LOCALE.ST_KEYBIND_MOVERIGHT]: {
     en: 'Move Right',
@@ -2025,7 +2037,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '往右',
     fr: 'Déplacer à droite',
     id: 'Pindahkan ke Kanan',
-    vi: 'Di chuyển sang phải',
+    vi: 'Sang phải',
   },
   [LOCALE.ST_KEYBIND_ATTACK]: {
     en: 'Attack',
@@ -2035,7 +2047,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '攻擊',
     fr: 'Attaque',
     id: 'Serang',
-    vi: 'Tấn công',
+    vi: 'Đánh thường',
   },
   [LOCALE.ST_KEYBIND_ABILITY]: {
     en: 'Ability',
@@ -2076,7 +2088,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '記分板',
     fr: 'Tableau des scores',
     id: 'Papan Skor',
-    vi: 'Bảng đồ',
+    vi: 'Bảng điểm',
   },
   [LOCALE.AUOTBUY]: {
     en: 'Auto-Buy',
@@ -2099,7 +2111,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Afficher le chat',
     br: 'Mostrar Chat',
     id: 'Tampilkan Obrolan',
-    vi: 'Hiện Chat',
+    vi: 'Hiện chat',
   },
   [LOCALE.HIDE_CHAT_IN_GAME]: {
     en: 'Hide Global chat in Game',
@@ -2147,7 +2159,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     br: 'Esse recurso permitirá que os botões do mouse sejam usados ​​para habilidades e ataques. Tenha cuidado, seu personagem ficará de frente para a direção do mouse. ',
     zh: '此功能能夠使用滑鼠按鍵迎面發動技能。注意，你的英雄將會朝著滑鼠的方向動作。',
     id: 'Fitur ini memungkinkan penggunaan mouse untuk semua serangan. Harap diingat bahwa pahlawan Anda akan menyerang ke arah mouse Anda dengan Dukungan Mouse diaktifkan.',
-    vi: 'Tính năng này cho phép sử dụng chuột cho tất cả các kỹ năng tấn công. Hãy nhớ rằng tướng của bạn sẽ tấn công về phía chuột của bạn khi Hỗ trợ Chuột được bật.',
+    vi: 'Tính năng này cho phép sử dụng chuột cho tất cả các kỹ năng. Hãy nhớ rằng tướng của bạn sẽ tấn công về phía chuột của bạn khi Hỗ trợ Chuột được bật.',
   },
   [LOCALE.ST_LANGUAGE]: {
     en: 'Language',
@@ -2317,7 +2329,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Inconnu',
     br: 'Desconhecido',
     id: 'Tidak diketahui',
-    vi: 'Không xác định',
+    vi: 'Chưa có hạng',
   },
   [LOCALE.RANK_BRONZE]: {
     en: 'Bronze',
@@ -2717,7 +2729,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Inconnu',
     br: 'Desconhecido',
     id: 'Tidak Dikenal',
-    vi: 'Không xác định',
+    vi: 'Ẩn danh',
   },
   [LOCALE.CHAT_SYSTEM_WELCOME]: {
     en: 'Player {} has joined the game!',
@@ -2727,7 +2739,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Le joueur {} a rejoint la partie !',
     br: 'O jogador {} entrou no jogo!',
     id: 'Pemain {} telah bergabung dengan permainan!',
-    vi: 'Người chơi {} đã tham gia trò chơi!',
+    vi: 'Người chơi {} đã tham gia!',
   },
   [LOCALE.CHAT_SYSTEM_SPECTATE]: {
     en: 'Specators: {}',
@@ -2747,7 +2759,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Vous êtes réduit au silence pendant {} minutes.',
     br: 'Você está silenciado por {} minutos.',
     id: 'Anda dibisukan selama {} menit.',
-    vi: 'Bạn bị tắt tiếng trong {} phút.',
+    vi: 'Bạn bị tắt chat trong {} phút.',
   },
   [LOCALE.CHAT_SYSTEM_RENAME]: {
     en: 'You have been given a rename. Reload your page to change your name.',
@@ -2777,7 +2789,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Votre signalement a été envoyé aux Maîtres de jeu.',
     br: 'Seu relatório foi enviado para os GameMasters.',
     id: 'Laporan Anda telah dikirim ke GameMasters.',
-    vi: 'Báo cáo của bạn đã được gửi đến Nhà phát triển.',
+    vi: 'Báo cáo của bạn đã được gửi đến nhà phát triển.',
   },
   [LOCALE.CHAT_SYSTEM_REPORT_ERR]: {
     en: 'Could not send your report to the GameMasters.',
@@ -3097,7 +3109,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '主動',
     fr: 'Actif',
     id: 'Aktif',
-    vi: 'Chủ động',
+    vi: 'Kích hoạt',
   },
   [LOCALE.PASSIVE]: {
     en: 'Passive',
@@ -3107,7 +3119,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '被動',
     fr: 'PASSIF',
     id: 'Pasif',
-    vi: 'Bị động',
+    vi: 'Nội tại',
   },
   [LOCALE.WATCH_AD_BUTTON]: {
     en: 'Watch Ad and get reward',
@@ -3157,7 +3169,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Rejoignez notre serveur Discord !',
     br: 'Junte-se ao nosso servidor Discord!',
     id: 'Bergabunglah dengan server Discord kami!',
-    vi: 'Tham gia Discord của chúng tôi!',
+    vi: 'Tham ia Discord của chúng tôi!',
   },
   [LOCALE.JOIN_DISCORD_MODAL_CONTEXT]: {
     en: 'To get the latest news, updates, and communicate with other players!',
@@ -3187,7 +3199,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Très bas',
     br: 'Muito baixo',
     id: 'Sangat Rendah',
-    vi: 'Rất Thấp',
+    vi: 'Rất thấp',
   },
   [LOCALE.SETTINGS_LOW]: {
     en: 'Low',
@@ -3227,7 +3239,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Ultra',
     br: 'Ultra',
     id: 'Ultra',
-    vi: 'Siêu',
+    vi: 'Rất cao',
   },
   [LOCALE.QUICKCHAT]: {
     en: 'Open Quick Chat',
@@ -3237,7 +3249,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Ouvrir le chat rapide',
     br: 'Abrir bate-papo rápido',
     id: 'Buka Obrolan Cepat',
-    vi: 'Mở Trò Chuyện Nhanh',
+    vi: 'Mở chat nhanh',
   },
   [LOCALE.ST_KEYBIND_QUICKCHAT_OPEN]: {
     en: 'Open Quick Chat',
@@ -3247,7 +3259,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Ouvrir le chat rapide',
     br: 'Abrir bate-papo rápido',
     id: 'Buka Obrolan Cepat',
-    vi: 'Mở Trò Chuyện Nhanh',
+    vi: 'Mở chat nhanh',
   },
   [LOCALE.ST_KEYBIND_QUICKCHAT_MSG_1]: {
     en: 'Message 1',
@@ -3317,7 +3329,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Acheter un article',
     br: 'Comprar item',
     id: 'Beli barang',
-    vi: 'Mua đồ',
+    vi: 'Mua',
   },
   [LOCALE.PURCHASED]: {
     en: 'Purchased',
@@ -3337,7 +3349,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Rang requis',
     br: 'Classificação necessária',
     id: 'Peringkat yang Diperlukan',
-    vi: 'Cấp bậc yêu cầu',
+    vi: 'Hạng yêu cầu',
   },
   [LOCALE.QUICKCHAT]: {
     en: 'Open Quick Chat',
@@ -3347,7 +3359,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Ouvrir le chat rapide',
     br: 'Abrir bate-papo rápido',
     id: 'Buka Obrolan Cepat',
-    vi: 'Mở Trò Chuyện Nhanh',
+    vi: 'Mở trò chuyện nhanh',
   },
   [LOCALE.ST_KEYBIND_QUICKCHAT_OPEN]: {
     en: 'Open Quick Chat',
@@ -3357,7 +3369,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Ouvrir le chat rapide',
     br: 'Abrir bate-papo rápido',
     id: 'Buka Obrolan Cepat',
-    vi: 'Mở Trò Chuyện Nhanh',
+    vi: 'Mở trò chuyện nhanh',
   },
   [LOCALE.ST_KEYBIND_QUICKCHAT_MSG_1]: {
     en: 'Message 1',
@@ -3497,7 +3509,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: "Activer l'attaque du mannequin",
     br: 'Ativar Ataque do Dummy',
     id: 'Aktifkan Serangan Dummy',
-    vi: 'Bật Tấn Công của Dummy',
+    vi: 'Dummy tấn công',
   },
   [LOCALE.NO]: {
     en: 'No',
@@ -3517,7 +3529,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: "Supprimer l'ami",
     br: 'Remover amigo',
     id: 'Hapus Teman',
-    vi: 'Xóa bạn bè',
+    vi: 'Xóa kết bạn',
   },
   [LOCALE.PURCHASE_ITEM_TITLE]: {
     en: 'Buy an item {}?',
@@ -3527,7 +3539,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Acheter un article {} ?',
     br: 'Comprar um item {}?',
     id: 'Beli item {}?',
-    vi: 'Mua một món đồ {}?',
+    vi: 'Mua {}?',
   },
   [LOCALE.RECEIVE_ITEM]: {
     en: 'You received a new item! Congratulations!',
@@ -3557,7 +3569,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Le jeu est sûr de quitter. Le jeu ne sera pas compté.',
     br: 'O jogo é seguro para sair. O jogo não será contado.',
     id: 'Permainan aman untuk ditinggalkan. Permainan tidak akan dihitung.',
-    vi: 'Trò chơi an toàn để rời đi. Trò chơi sẽ không được tính.',
+    vi: 'Ván an toàn để rời. Ván này không tính.',
   },
   [LOCALE.LOGIN_WITH_CRAZYGAMES]: {
     en: 'Login with CrazyGames Account',
@@ -3567,7 +3579,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Se connecter avec un compte CrazyGames',
     br: 'Login com a conta CrazyGames',
     id: 'Masuk dengan Akun CrazyGames',
-    vi: 'Đăng nhập bằng Tài khoản CrazyGames',
+    vi: 'Đăng nhập bằng tài khoản CrazyGames',
   },
   [LOCALE.SERVER_IS_FULL_BTN]: {
     en: 'Server Full',
@@ -3587,7 +3599,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     fr: 'Récapitulatif de la mort',
     br: 'Recapitulação da morte',
     id: 'Ringkasan Kematian',
-    vi: 'Tóm tắt cái chết',
+    vi: 'Sát thương chịu',
   },
   [LOCALE.DAYS]: {
     en: 'days',
@@ -3627,7 +3639,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '遊戲模式',
     fr: 'Mode de jeu',
     id: 'Mode Permainan',
-    vi: 'Chế độ trò chơi',
+    vi: 'Chế độ',
   },
   [LOCALE.LOBBY_MAX_DURATION_MINUTES]: {
     br: 'Tempo Máximo (Minutos)',
@@ -3635,7 +3647,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     en: 'Max Duration (Minutes)',
     id: 'Durasi Maksimal (Menit)',
     ru: 'Максимальная длительность (минуты)',
-    vi: 'Thời gian Cao Nhat (phút)',
+    vi: 'Thời gian dài nhất (phút)',
     zh: '最長時長(分鐘)',
   },
   [LOCALE.LOBBY_MAX_POINTS]: {
@@ -3646,7 +3658,7 @@ const locale_data: { [key in LOCALE]: { [key in string]: string } } = {
     zh: '最大分數',
     fr: 'Points maximum',
     id: 'Poin Maksimal',
-    vi: 'Diểm Cao Nhat',
+    vi: 'Diểm tối đa',
   },
 }
 export default locale_data
