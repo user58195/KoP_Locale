@@ -433,7 +433,7 @@ const getHeroTalents = (hero: Shared.HEROES): ILocaleHeroTalent => {
             zh: `精準射擊冷卻 ${preciseShotCooldown}秒`,
             fr: `Recharge de Tir de précision ${preciseShotCooldown}s`,
             br: `Recarga do Tiro Preciso ${preciseShotCooldown}s`,
-            vi: `Hồi chiêu Phát Bắn Chính Xác ${preciseShotCooldown}s`,
+            vi: `Hồi chiêu Tên Chuẩn Xác ${preciseShotCooldown}s`,
             id: `Cooldown Precise Shot ${preciseShotCooldown}s`,
           },
         },
